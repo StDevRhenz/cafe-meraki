@@ -1,0 +1,30 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+vendor/
+.next/
+
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+/dist
+/build
+/.next
+
+# Cache
+.cache/
+.parcel-cache/
