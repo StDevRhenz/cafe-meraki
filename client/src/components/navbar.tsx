@@ -20,10 +20,10 @@ export default function Navbar() {
           <ul className="flex items-center gap-8">
             <li>
               <Link 
-                href="#" 
+                href="/about" 
                 className="text-black uppercase text-sm font-medium hover:text-[#2A1B0F] transition-all duration-300 relative after:content-[''] after:absolute after:w-0 after:h-[3px] after:bottom-[-10px] after:left-0 after:bg-[#2A1B0F] after:transition-all after:duration-500 hover:after:w-full"
               >
-                ABOUT CAFE MERAKI
+                ABOUT
               </Link>
             </li>
             <li>
