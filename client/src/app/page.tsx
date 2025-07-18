@@ -115,7 +115,7 @@ export default function Home() {
                     Rent our Area (Makati Branch) EXCLUSIVELY for FREE<br />
                     minimum consumable of Php4,000
                   </h4>
-                  <Link href="#">
+                  <Link href="/message">
                     <h6 className="text-base md:text-lg underline hover:text-amber-300 transition-colors cursor-pointer">
                       MESSAGE US
                     </h6>
@@ -147,7 +147,7 @@ export default function Home() {
                   </Link>
                   <h6 className="text-lg">
                     Experience a soulful booth in your event.{' '}
-                    <Link href="#" className="underline hover:text-amber-300">
+                    <Link href="/message" className="underline hover:text-amber-300">
                       Book us!
                     </Link>
                   </h6>
