@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="w-full h-[90px] m-0 flex bg-white border-black z-[999] fixed top-0 border-b-[3px] border-b-[#2A1B0F]">
       <div className="flex justify-between items-center w-full px-10 font-bold">
         <div className="flex items-center gap-8">
-          <Link href="/">
+          <Link href="../">
             <Image 
               src={Logo} 
               alt="Cafe Meraki Logo" 
@@ -28,20 +28,13 @@ export default function Navbar() {
             </li>
             <li>
               <Link 
-                href="#" 
+                href="/franchise" 
                 className="text-black uppercase text-sm font-medium hover:text-[#2A1B0F] transition-all duration-300 relative after:content-[''] after:absolute after:w-0 after:h-[3px] after:bottom-[-10px] after:left-0 after:bg-[#2A1B0F] after:transition-all after:duration-500 hover:after:w-full"
               >
                 FRANCHISE
               </Link>
             </li>
-            <li>
-              <Link 
-                href="#" 
-                className="text-black uppercase text-sm font-medium hover:text-[#2A1B0F] transition-all duration-300 relative after:content-[''] after:absolute after:w-0 after:h-[3px] after:bottom-[-10px] after:left-0 after:bg-[#2A1B0F] after:transition-all after:duration-500 hover:after:w-full"
-              >
-                LOCATIONS
-              </Link>
-            </li>
+
           </ul>
         </div>
         

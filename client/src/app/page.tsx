@@ -82,7 +82,7 @@ export default function Home() {
                   className="w-full rounded-lg"
                 />
               </div>
-              <div className="flex-[500px] border-3 border-black rounded-[50px] ml-5 flex items-center justify-center">
+              <div className="flex-[500px] border-2 border-black rounded-[50px] ml-5 flex items-center justify-center">
                 <div className="text-center px-8">
                   <h4 className="text-3xl text-black font-bold mb-4">HAVE A SOULFUL TASTE</h4>
                   <h5 className="text-xl text-black mb-6">Explore our menu</h5>
@@ -168,7 +168,7 @@ export default function Home() {
                   className="w-full rounded-lg"
                 />
               </div>
-              <div className="flex-[400px] border-3 border-black rounded-[50px] ml-5 flex items-center justify-center">
+              <div className="flex-[400px] border-2 border-black rounded-[50px] ml-5 flex items-center justify-center">
                 <div className="text-center px-8">
                   <h5 className="text-xl text-black mb-2">VISIT US TODAY!</h5>
                   <h4 className="text-3xl text-black font-bold mb-2">CAFE MERAKI</h4>
