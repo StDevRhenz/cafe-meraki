@@ -30,7 +30,7 @@ export default function Message() {
             <div className="bg-white rounded-lg shadow-lg p-8">
               <div className="mb-6">
                 <h2 className="text-3xl font-bold text-[#503B28] mb-2">Contact Us!</h2>
-                <p className="text-gray-600">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                <p className="text-gray-600">We&apos;d love to hear from you. Send us a message and we&apos;ll respond as soon as possible.</p>
               </div>
               
               <form action="#" method="POST" className="space-y-6">

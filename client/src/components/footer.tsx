@@ -1,7 +1,6 @@
 
 
 import Image from 'next/image';
-import Link from 'next/link';
 import Facebook from '../assets/fb.png';
 import Instagram from '../assets/ig.png';
 
