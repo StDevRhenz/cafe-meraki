@@ -1,5 +1,6 @@
 # cafe-meraki
 
+# Recreating using some Frameworks (For Project Live Demo)
 
 # Soon
 npm install lucide-react          # For icons
