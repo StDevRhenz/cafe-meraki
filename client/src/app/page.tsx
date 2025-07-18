@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="text-center px-8">
                   <h4 className="text-3xl text-black font-bold mb-4">HAVE A SOULFUL TASTE</h4>
                   <h5 className="text-xl text-black mb-6">Explore our menu</h5>
-                  <Link href="/order">
+                  <Link href="#">
                     <button className="px-8 py-3 bg-[#2A1B0F] text-white rounded-full hover:bg-[#1A1109] transition-colors">
                       ORDER NOW
                     </button>
@@ -115,7 +115,7 @@ export default function Home() {
                     Rent our Area (Makati Branch) EXCLUSIVELY for FREE<br />
                     minimum consumable of Php4,000
                   </h4>
-                  <Link href="/message">
+                  <Link href="#">
                     <h6 className="text-base md:text-lg underline hover:text-amber-300 transition-colors cursor-pointer">
                       MESSAGE US
                     </h6>
@@ -147,7 +147,7 @@ export default function Home() {
                   </Link>
                   <h6 className="text-lg">
                     Experience a soulful booth in your event.{' '}
-                    <Link href="/message" className="underline hover:text-amber-300">
+                    <Link href="#" className="underline hover:text-amber-300">
                       Book us!
                     </Link>
                   </h6>

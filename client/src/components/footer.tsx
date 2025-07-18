@@ -55,12 +55,12 @@ export default function Footer() {
               <p className="text-black/70">Phone:</p>
               <p className="font-semibold">0929 674 0658</p>
               <p className="text-black/70">Email:</p>
-              <Link 
-                href="/message" 
+              <a 
+                href="mailto:onemerakicafe@gmail.com" 
                 className="font-semibold hover:text-[#2A1B0F] transition-colors"
               >
                 onemerakicafe@gmail.com
-              </Link>
+              </a>
             </div>
           </div>
 
