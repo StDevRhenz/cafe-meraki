@@ -29,7 +29,7 @@ export default function About() {
           </div>
           
           <div className="absolute top-1/2 left-8 transform -translate-y-1/2 w-[45%] max-w-lg text-lg md:text-xl lg:text-2xl text-white p-6 rounded-lg text-left">
-            Cafe Meraki, led by owner Mark Marcos, is a renowned destination in Makati City. Known for its Taiwanese-style milk tea, frappes, and diverse menu, it has two branches. Mark's dedication to culinary excellence has made Cafe Meraki a beloved spot for exceptional beverages and delicious food. It's a testament to his commitment to providing an outstanding dining experience.
+            Cafe Meraki, led by owner Mark Marcos, is a renowned destination in Makati City. Known for its Taiwanese-style milk tea, frappes, and diverse menu, it has two branches. Mark&apos;s dedication to culinary excellence has made Cafe Meraki a beloved spot for exceptional beverages and delicious food. It&apos;s a testament to his commitment to providing an outstanding dining experience.
           </div>
         </div>
       </div>
