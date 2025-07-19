@@ -40,7 +40,7 @@ export default function Navbar() {
         
         <div>
           <Link 
-            href="#" 
+            href="/login" 
             className="bg-white text-[#2A1B0F] border-2 border-[#2A1B0F] px-6 py-2 rounded-[25px] hover:bg-[#2A1B0F] hover:text-white transition-all duration-300 font-medium"
           >
             LOGIN/SIGNUP
