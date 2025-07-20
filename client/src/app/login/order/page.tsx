@@ -8,20 +8,20 @@ import Link from "next/link";
 
 
 
-import Image1 from '../../../assets/img_homeOrder/menupic.png';
+import Image1 from '../../../assets/img_allOrder/menupic.png';
 
-import Image2 from '../../../assets/img_homeOrder/Group 20.png';
-import Image3 from '../../../assets/img_homeOrder/Group 21.png';
-import Image4 from '../../../assets/img_homeOrder/Group 22.png';
-import Image5 from '../../../assets/img_homeOrder/Group 23.png';
+import Image2 from '../../../assets/img_allOrder/Group 20.png';
+import Image3 from '../../../assets/img_allOrder/Group 21.png';
+import Image4 from '../../../assets/img_allOrder/Group 22.png';
+import Image5 from '../../../assets/img_allOrder/Group 23.png';
 
 
-import Image6 from '../../../assets/img_homeOrder/Group 14.png';
-import Image7 from '../../../assets/img_homeOrder/Group 15.png';
-import Image8 from '../../../assets/img_homeOrder/Group 16.png';
-import Image9 from '../../../assets/img_homeOrder/Group 17.png';
-import Image10 from '../../../assets/img_homeOrder/Group 18.png';
-import Image11 from '../../../assets/img_homeOrder/Group 19.png';
+import Image6 from '../../../assets/img_allOrder/Group 14.png';
+import Image7 from '../../../assets/img_allOrder/Group 15.png';
+import Image8 from '../../../assets/img_allOrder/Group 16.png';
+import Image9 from '../../../assets/img_allOrder/Group 17.png';
+import Image10 from '../../../assets/img_allOrder/Group 18.png';
+import Image11 from '../../../assets/img_allOrder/Group 19.png';
 
 
 
@@ -56,12 +56,12 @@ export default function Order() {
           <h1 className="text-3xl font-bold mb-2">MENU</h1>
           <div className="menulist flex justify-center">
             <div className="flex flex-wrap gap-6">
-              <Link href="/tea&coffee"><Image src={Image6} alt="Tea & Coffee" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
-              <Link href="/FRAPPE"><Image src={Image7} alt="Frappe" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
-              <Link href="/Cold-Drinks"><Image src={Image8} alt="Cold Drinks" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
-              <Link href="/Rice%20Meal"><Image src={Image9} alt="Rice Meal" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
-              <Link href="/Foods"><Image src={Image10} alt="Foods" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
-              <Link href="/hotbox"><Image src={Image11} alt="Hotbox" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
+              <Link href="/login/order/tea&coffee"><Image src={Image6} alt="Tea & Coffee" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
+              <Link href="/login/order/FRAPPE"><Image src={Image7} alt="Frappe" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
+              <Link href="/login/order/Cold-Drinks"><Image src={Image8} alt="Cold Drinks" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
+              <Link href="/login/order/Rice%20Meal"><Image src={Image9} alt="Rice Meal" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
+              <Link href="/login/order/Foods"><Image src={Image10} alt="Foods" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
+              <Link href="/login/order/hotbox"><Image src={Image11} alt="Hotbox" width={220} height={220} className="rounded-xl object-cover hover:scale-105 transition-transform" /></Link>
             </div>
           </div>
         </div>
