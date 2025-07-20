@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="text-center px-8">
                   <h4 className="text-3xl text-black font-bold mb-4">HAVE A SOULFUL TASTE</h4>
                   <h5 className="text-xl text-black mb-6">Explore our menu</h5>
-                  <Link href="#">
+                  <Link href="/login">
                     <button className="px-8 py-3 bg-[#2A1B0F] text-white rounded-full hover:bg-[#1A1109] transition-colors">
                       ORDER NOW
                     </button>
@@ -140,7 +140,7 @@ export default function Home() {
                   <h4 className="text-2xl md:text-4xl font-bold mb-8 leading-relaxed">
                     Find the nearest Cafe Meraki<br />around your place!
                   </h4>
-                  <Link href="#">
+                  <Link href="/message">
                     <button className="px-12 py-4 bg-transparent text-white border-2 border-white rounded-full hover:bg-white hover:text-black transition-all duration-300 mb-6 text-center min-w-[500px]">
                       BRANCHES
                     </button>
