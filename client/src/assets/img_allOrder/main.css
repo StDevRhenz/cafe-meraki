@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/*navigationbar*/
+.container{
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    display: flex;
+    background-color: white;
+    border-color: #000;
+    z-index: 999;
+    position: fixed;
+    border-bottom: 3px solid #2A1B0F;
+}
+.navbar {
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    padding: 0 40px;
+    font-weight: bold;
+}
+.logo{
+    width: 65px;
+    cursor: pointer;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.nav-1 ul{
+    font-size: 15px;
+}
+
+.nav-2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 1px;
+}
+.navbar-2 ul{
+   
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+}
+hr
+{
+    opacity: 0.5;
+    color: black;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.button {
+    width: 150px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black; 
+    cursor: pointer;
+    position: relative;
+    font-size: 16px; 
+    background-color: white; 
+    color: black; 
+    text-decoration: none; 
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    color: white;
+    background-color: black; 
+}
+
+.button:focus {
+    outline: none;
+}
+
+
+
+/*MENU2*/
+
+.menuNav {
+    background-color: #503B28;
+    position: fixed; 
+    top: 93px;
+    width: 100%; 
+    z-index: 999; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.menuNav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 80px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative; 
+}
+
+.menuNav a[href="#teaNcoffee"] {
+    text-decoration: underline; /* Add underline */
+}
+
+
+
+.menuNav a:not(:last-child)::after {
+    content: '|'; 
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 8px; 
+    color: #f2f2f2;
+}
+
+
+
+.menuNav a:last-child::after {
+    content: none;
+}
+
+.menuNav a:hover{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .menuNav {
+        padding: 10px 0; 
+        top: 90px;
+    }
+    
+    .menuNav a {
+        padding: 10px; 
+        font-size: 14px; 
+    }
+}
+
+
+/* eto na ung layout guys*/
+
+hr{
+    width: 1300px;
+}
+.category-title {
+    padding: 170px 90px 20px 90px; 
+    font: bold 30px/1.5 Arial, Helvetica, sans-serif; 
+}
+.category-titlee {
+    padding: 170px 90px 20px 90px; 
+    font: bold 30px/1.5 Arial, Helvetica, sans-serif; 
+}
+
+
+.grid-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px; 
+}
+
+.grid-box {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    height: 310px;
+    text-align: center;
+    background-color: #C7B88F;
+}
+
+.drinks{
+    width: 120px; /* adjust nyo to ewan ko lang  */
+    height: 180px; /*t tas eto hirap aksi talaga akos a image need icrop */
+
+}
+/* pic sizes*/
+.hotbox{
+    width: 180px;
+    height: 140px;
+    margin-top: 15px;
+}
+.frappe{
+    width: 145px; /* adjust nyo to ewan ko lang  */
+    height: 180px; /*t tas eto hirap aksi talaga akos a image need icrop */
+}
+.foods{
+    margin-top: 10px;
+    width: 180px; /* adjust nyo to ewan ko lang  */
+    height: 170px; /*t tas eto hirap aksi talaga akos a image need icrop */
+}
+.foodss{
+    margin-top: 10px;
+    width: 200px; /* adjust nyo to ewan ko lang  */
+    height: 160px; /*t tas eto hirap aksi talaga akos a image need icrop */
+}
+.rice {
+    margin-top: 15px;
+    width: 180px; /* adjust nyo to ewan ko lang  */
+    height: 140px; /*t tas eto hirap aksi talaga akos a image need icrop */
+}
+
+.silog{
+    margin-top: 15px;
+    width: 180px;
+    height: 160px;
+}
+/*hanggang dito*/
+
+.product-name{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-info {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product-name,
+.product-price {
+    
+    display: block;
+}
+.product-price{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.order-button {
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #2A1B0F;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 190px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.footer{
+    width: 99.8%;
+}
+.footer hr{
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 80px;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+}
+.footer table a{
+    cursor: pointer;
+    color: black;
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 1200px) {
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ETO NA UNG PART NA CHECK OUT FORM*/
+.title-checkout {
+    background-color: #503B28;
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    top: 93px;
+    width: 100%;
+    z-index: 999;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* SET NA NG 2 COLUMS*/
+.information-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 120px;
+    gap: 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/* ETO NA UNG DALAWANG COLUMNS */
+.receipt-column,
+.detail-column {
+    flex: 1;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* HEADER NILA */
+.receipt-column h2,
+.detail-column h2 {
+    margin-top: 0;
+}
+
+
+.customer-column {
+    background-color: #F0F0F0;
+    width: 600px;
+}
+
+.customer-details h3 {
+    margin-bottom: 10px;
+}
+
+/* UNG MGA IINPUTS NILA AUTOMATIC PWEDE PALITAN*/
+.customer-details .name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+
+.customer-details .name-inputs input[type="text"] {
+    flex: 1;
+}
+
+/* INSTEAD OF USING ID ETO NALANG GINAMIT KO DALAWA KASI TECHNIQUE SA PAG LAGAY NG ID EITHER ETO OR UNG PAGLAGAY NG ID PERO GAGAMITIN KO KASI UNG ID FOR PHP */
+.customer-details input[type="text"],
+.customer-details input[type="email"],
+.customer-details textarea {
+    resize: none;
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+.payment-method,
+.upload-receipt,
+.reference-number,
+.qr-code {
+    margin-top: 20px;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+}
+
+.payment-option input[type="radio"] {
+
+    margin-right: 10px;
+}
+
+.upload-receipt input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    background-color: #C7B88F;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+#ref-num {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+#ref-num {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+
+#ref-num::placeholder {
+    color: #999; 
+}
+
+
+#ref-num:focus {
+    border-color: #007bff;
+}
+
+.qr-code img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+.captcha-section {
+    
+    padding-top: 20px; 
+}
+
+.captcha-section h2 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+.captcha-section p {
+    margin-bottom: 10px; 
+}
+
+#captcha {
+
+}
+
+/* ETO GUMAMIT AKO ID */
+
+#userInput {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    font-size: 16px; 
+}
+
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px;
+    background-color: #503B28; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #6d5240;
+}
+
+
+/*eto ung part na magiging column ung dalawang invisible grid na malaki na naghahati sa dalawang order summary and details ng user*/
+@media screen and (max-width: 768px) {
+    .information-wrapper {
+        flex-direction: column; 
+        border-left: none;
+        border-right: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
