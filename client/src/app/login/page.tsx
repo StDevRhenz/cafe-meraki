@@ -1,3 +1,13 @@
 export default function login(){
-    return <div>Hello This is Login</div>
+    return (
+    <div>
+        <div>
+            Hello this is LoginPage
+        </div>
+        <div>
+            <button>Enter to userLogin</button>
+        </div>
+    </div>
+    
+    )
 }
