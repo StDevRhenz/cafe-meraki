@@ -1,21 +1,24 @@
 
 
-
 "use client";
 import Link from "next/link";
 
+// Menu items for navigation
 const menuItems = [
-  { label: "Tea & Coffee", href: "/login/order/tea&coffee" },
+  { label: "Tea & Coffee", href: "/login/order/teaAndcoffee" },
   { label: "Frappe", href: "/login/order/FRAPPE" },
   { label: "Cold Drinks", href: "/login/order/Cold-Drinks" },
-  { label: "Rice Meal", href: "/login/order/Rice%20Meal" },
+  { label: "Rice Meal", href: "/login/order/RiceAndMeal" },
   { label: "Foods", href: "/login/order/Foods" },
   { label: "Meraki Hotbox", href: "/login/order/hotbox" },
 ];
 
 export default function NavbarMenu() {
   return (
-    <nav className="fixed top-[93px] w-full z-[999] bg-[#503B28] overflow-x-auto whitespace-nowrap flex justify-around items-center">
+    <nav
+      className="fixed top-[90px] w-full z-[999] bg-[#503B28] overflow-x-auto whitespace-nowrap flex justify-around items-center"
+      aria-label="Order categories navigation"
+    >
       {menuItems.map((item, idx) => (
         <div key={item.label} className="relative flex items-center">
           <Link
