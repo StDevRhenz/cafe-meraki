@@ -24,7 +24,7 @@ export default function login() {
                   LOGIN
                 </button>
               </Link>
-              <p className="guestmode text-center pt-2"><a href="/login/order" className="text-[#2A1B0F] underline hover:text-blue-600 text-[16px] font-sans">Guest mode</a></p>
+              <p className="guestmode text-center pt-2"><Link href="/login/order" className="text-[#2A1B0F] underline hover:text-blue-600 text-[16px] font-sans">Guest mode</Link></p>
             </form>
           </div>
         </div>
