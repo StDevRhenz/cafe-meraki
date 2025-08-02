@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import NavbarMenu from "../../navbarmenu/page";
@@ -6,14 +5,11 @@ import { categoryProducts, SubCategory } from "@/data/products";
 import ProductGrid from "@/components/ProductGrid";
 
 interface CategoryPageProps {
-  params: {
-    category: string;
-  };
+  params: Promise<{ category: string }>; // Promise because Next.js passes it async
 }
 
-
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const { category } = params;
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { category } = await params; // Await params here
   const subCategories: SubCategory[] = categoryProducts[category] || [];
 
   return (
@@ -39,4 +35,3 @@ export default function CategoryPage({ params }: CategoryPageProps) {
     </div>
   );
 }
-
