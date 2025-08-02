@@ -7,7 +7,7 @@ import Link from "next/link";
 const menuItems = [
   { label: "Tea & Coffee", href: "/login/order/teaAndcoffee" },
   { label: "Frappe", href: "/login/order/FRAPPE" },
-  { label: "Cold Drinks", href: "/login/order/Cold-Drinks" },
+  { label: "Cold Drinks", href: "/login/order/ColdDrinks" },
   { label: "Rice Meal", href: "/login/order/RiceAndMeal" },
   { label: "Foods", href: "/login/order/Foods" },
   { label: "Meraki Hotbox", href: "/login/order/hotbox" },
