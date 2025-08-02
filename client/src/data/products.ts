@@ -65,7 +65,7 @@ export const categoryProducts: Record<string, SubCategory[]> = {
     }
   ],
 
-  Frappe: [
+  FRAPPE: [
     {
       subCategory: "MILKTEA",
       products: [
@@ -163,7 +163,7 @@ export const categoryProducts: Record<string, SubCategory[]> = {
   ],
 
 
-  MerakiHotbox: [
+  hotbox: [
     {
       subCategory: "MILKTEA",
       products: [
